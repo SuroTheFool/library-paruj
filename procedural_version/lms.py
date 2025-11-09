@@ -1,18 +1,5 @@
 # Library Management System - Procedural Style
 
-class Book:
-    def __init__(self,id,author,total_copies,available_copies):
-        self.id = id
-        self.author = author
-        self.total_copies = total_copies
-        self.available_copies = available_copies
-
-class Member:
-    def __init__(name, email, borrowed_books,list):
-        pass
-
-
-
 books = []
 members = []
 borrowed_books = []
